@@ -1,0 +1,175 @@
+%-------------------------
+% Resume in Latex
+% Author : Henry Law JunWei
+% Website: 
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://henzljw.github.io/}{\Large Law JunWei}} & Email : \href{mailto:hezagon99@gmail.com}{hezagon99@gmail.com}\\
+  \href{https://henzljw.github.io/}{https://henzljw.github.io/}\\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Multimedia University}{Cyberjaya, Malaysia}
+      {Bachelor of Computer Science (Honours) Software Engineering;  GPA: 3.47}{Nov. 2019 -- Mar. 2023}
+    \resumeSubheading
+      {Multimedia University}{Cyberjaya, Malaysia}
+      {Diploma in Information Technology;  GPA: 3.46}{July 2017 -- Nov. 2019}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Infront Consulting Group (M) Sdn. Bhd.}{Petaling Jaya, Malaysia}
+      {Software Engineer Ninja Intern}{May 2022 - Aug. 2022}
+      \resumeItemListStart
+        \resumeItem{Self-service subscription web application}
+          {Add tenant, owner and assigned funds for the admin when creating a project. Create an edit project form to edit existing project. Filter some active owner for assigning project. Create an edit project form. Also web application debugging.}
+        \resumeItem{Online certification web application}
+          {Implement One-Time Password (OTP) verification feature for its account login page. Validate the data format in the modal. Conduct Simple Mail Transfer Protocol (SMTP) for its One-Time Password (OTP) verification feature. Testing the functionality of web application during testing phase by using User Acceptance Testing (UAT). Also web application debugging.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Internexia Sdn. Bhd.}{Cyberjaya, Malaysia}
+      {Student Intern}{March 2019 - June 2019}
+      \resumeItemListStart
+        \resumeItem{Dashboard report web application}
+          {Include drop-down component to filter data by year in the application. Make a documentation about the latest changes for the dashboard report web application. Modify display output according to the tab resolution size. Create new SQL to join between two different data table into one single combined table. Also web application debugging.}
+        \resumeItem{Language translation}
+          {Translate 5000 sentences from English to Malay language.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{henzljw.github.io}
+      {A personal portfolio web application to introduce myself and showcase some portfolio. Engineered with HTML, Tailwind CSS framework and JavaScript.}
+    \resumeSubItem{UpMeal}
+      {A meal recommender and sharing application. Engineered with Laravel and Tailwind CSS framework.}
+    \resumeSubItem{Pocket Guide}
+      {A money literacy system to educate the primary school students in Cyberjaya about the purpose of money literacy. Project of Software Engineering Fundamentals. Engineered with HTML, CSS, JavaScript and PHP.}
+    \resumeSubItem{hashtech}
+      {An online shopping web application that selling various type of gadgets. Engineered by using HTML, CSS, JavaScript and PHP.}
+  \resumeSubHeadingListEnd
+
+
+%-----------VOLUNTEERING-----------------
+\section{Volunteering}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {3 Days of Code 2018}{Cyberjaya, Malaysia}
+      {IT Society Multimedia University}{April 2018}
+       \resumeItemListStart
+         \resumeItem
+        {Assistant in Sponsorship and Logistics Division}{Seeking the company to sponsor the following event and find the suitable venue for the event.}
+          \resumeItemListEnd
+        \resumeSubheading
+          {Tech Career Days 2017}{Cyberjaya, Malaysia}
+          {IT Society Multimedia University}{December 2017}
+          \resumeItemListStart
+            \resumeItem
+                {Member in Treasure Division}{Manage the funds to operate the event.}
+          \resumeItemListEnd
+  \resumeSubHeadingListEnd
+  
+
+%--------PROGRAMMING SKILLS------------
+\section{Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Programming Languages}{: C, C++, C Sharp, Java, Python, HTML, CSS, JavaScript, PHP, MySQL}
+   }
+   \item{
+     \textbf{Frameworks}{: Bootstrap, Tailwind CSS, Laravel, Django, Vue.js}
+   }
+   \item{
+     \textbf{Technologies}{: XAMPP, Git, Github, Microsoft Azure Devops, Microsoft Visual Studio Code}
+   }
+   \item{
+     \textbf{Languages}{: English, Malay, Chinese}
+   }
+ \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
